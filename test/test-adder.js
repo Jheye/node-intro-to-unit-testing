@@ -19,6 +19,7 @@ describe('adder', function() {
   });
 
   it('should raise error if args not numbers', function() {
+
     const badInputs = [
       ['a', 1],
       ['1', 2],
